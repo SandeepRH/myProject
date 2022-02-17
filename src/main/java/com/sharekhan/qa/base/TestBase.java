@@ -42,11 +42,7 @@ public void initialization() {
 	WebDriverManager.chromedriver().setup();
 	driver = new ChromeDriver();
 	}
-	else if(browsername.equals("Firefox"))
-	{
-		WebDriverManager.firefoxdriver().setup();
-		driver= new FirefoxDriver();
-	}
+	
 
 	
 
